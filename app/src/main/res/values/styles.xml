@@ -1,0 +1,26 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light">
+        <!-- Primary theme color of the app (sets background color of app bar) -->
+        <item name="colorPrimary">#33691e</item>
+        <!-- Background color of buttons in the app -->
+        <item name="colorButtonNormal">#64dd17</item>
+    </style>
+
+    <style name="styleMyButton" parent="android:style/Widget.Button"> >
+        <item name="android:background">#64dd17</item>
+        <item name="android:layout_marginLeft">10dp</item>
+        <item name="android:layout_marginRight">10dp</item>
+        <item name="android:layout_marginTop">2dp</item>
+        <item name="android:layout_marginBottom">2dp</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">30sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:gravity">center_horizontal|center_vertical</item>
+        <item name="android:layout_weight">1</item>
+    </style>
+
+</resources>
